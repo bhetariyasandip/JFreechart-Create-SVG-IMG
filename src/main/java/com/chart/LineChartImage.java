@@ -42,7 +42,7 @@ public class LineChartImage {
 
 
 
-			JFreeChart lineChartObject = ChartFactory.createLineChart("Schools Vs Student", "Student", "Months",
+			JFreeChart lineChartObject = ChartFactory.createLineChart("Schools Vs Student", "Months", "Student",
 					line_chart_dataset,PlotOrientation.VERTICAL, false, false, false);
 
 

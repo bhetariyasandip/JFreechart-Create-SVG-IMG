@@ -40,7 +40,7 @@ public class LineChartSVG {
                 
                 
                 /* Create line chart object - we can then convert to SVG */
-                JFreeChart lineChartObject=ChartFactory.createLineChart("Schools Vs Student", "Student", "Months", svglineChartDataset, PlotOrientation.VERTICAL, false, false, false);
+                JFreeChart lineChartObject=ChartFactory.createLineChart("Schools Vs Student", "Months", "Student", svglineChartDataset, PlotOrientation.VERTICAL, false, false, false);
                 /* Write Chart output as SVG */
                 /* Get DOM Implementation */
                 DOMImplementation mySVGDOM= GenericDOMImplementation.getDOMImplementation();
