@@ -53,7 +53,7 @@ public class LineChartSVG {
                 lineChartObject.draw(my_svg_generator, new Rectangle2D.Double(0, 0, 640, 480), null);
                 /* Write output to file */
                 
-                my_svg_generator.stream("svg_line_chart.svg"); 
+                my_svg_generator.stream("svg-line-chart.svg"); 
                 System.out.println("Successfully Create SVG Chart");
         }
         catch (Exception e)

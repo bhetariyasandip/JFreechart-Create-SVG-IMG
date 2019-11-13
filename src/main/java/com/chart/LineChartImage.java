@@ -49,7 +49,7 @@ public class LineChartImage {
 			final CategoryPlot plot = lineChartObject.getCategoryPlot();
 			final NumberAxis rangeAxis = (NumberAxis) plot.getRangeAxis();
 			rangeAxis.setStandardTickUnits(NumberAxis.createIntegerTickUnits());
-			rangeAxis.setRange(8000, 11000);
+			rangeAxis.setRange(800, 1100);
 
 			// rotate X dates
 			final CategoryAxis domainAxis = plot.getDomainAxis();
@@ -61,7 +61,7 @@ public class LineChartImage {
 
 			int width = 640;    /* Width of the image */
 			int height = 480;   /* Height of the image */ 
-			File lineChart = new File( "png_line_chart.png" ); 
+			File lineChart = new File( "png-line-chart.png" ); 
 			ChartUtilities.saveChartAsJPEG(lineChart ,lineChartObject, width ,height);
 			System.out.println("Successfully Create PNG Chart");
 
