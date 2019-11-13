@@ -61,7 +61,7 @@ public class LineChartImage {
 
 			int width = 640;    /* Width of the image */
 			int height = 480;   /* Height of the image */ 
-			File lineChart = new File( "png-line-chart.png" ); 
+			File lineChart = new File( "PNG-line-chart.png" ); 
 			ChartUtilities.saveChartAsJPEG(lineChart ,lineChartObject, width ,height);
 			System.out.println("Successfully Create PNG Chart");
 
