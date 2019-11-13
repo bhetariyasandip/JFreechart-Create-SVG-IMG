@@ -26,18 +26,18 @@ public class LineChartImage {
 	public static void main( String[ ] args ) throws Exception {
 		try {
 			DefaultCategoryDataset line_chart_dataset = new DefaultCategoryDataset();
-			line_chart_dataset.addValue(9416.84143028, "", "1");
-			line_chart_dataset.addValue(9360.93285419, "", "2");
-			line_chart_dataset.addValue(9237.2885082, "", "3");
-			line_chart_dataset.addValue(9270.28833524, "", "4");
-			line_chart_dataset.addValue(9080.23484518, "", "5");
-			line_chart_dataset.addValue(8809.37777299, "", "6");
-			line_chart_dataset.addValue(8850.27817187, "", "7");
-			line_chart_dataset.addValue(8810.32693886, "", "8");
-			line_chart_dataset.addValue(8871.36137352, "", "9");
-			line_chart_dataset.addValue(9063.41018917, "", "10");
-			line_chart_dataset.addValue(9039.03073176, "", "11");
-			line_chart_dataset.addValue(8835.53660028, "", "12");
+			line_chart_dataset.addValue(941, "", "1");
+            line_chart_dataset.addValue(936, "", "2");
+            line_chart_dataset.addValue(923, "", "3");
+            line_chart_dataset.addValue(927, "", "4");
+            line_chart_dataset.addValue(908, "", "5");
+            line_chart_dataset.addValue(880, "", "6");
+            line_chart_dataset.addValue(885, "", "7");
+            line_chart_dataset.addValue(881, "", "8");
+            line_chart_dataset.addValue(887, "", "9");
+            line_chart_dataset.addValue(906, "", "10");
+            line_chart_dataset.addValue(903, "", "11");
+            line_chart_dataset.addValue(883, "", "12");
 
 
 
